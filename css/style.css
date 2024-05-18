@@ -952,6 +952,14 @@ form label {
   animation: pulse 1s ease infinite;
 }
 
+@media screen and (max-width: 768px) {
+  .simply-countdown > .simply-section {
+    /* coutndown blocks */
+    width: 80px;
+    height: 80px;
+  }
+}
+
 @keyframes pulse {
   0% {
     transform: scale(1);
@@ -971,6 +979,14 @@ form label {
   width: 100px;
 }
 
+@media screen and (max-width: 768px) {
+  .simply-countdown > .simply-section > div {
+    /* coutndown blocks */
+    height: 80px;
+    width: 80px;
+  }
+}
+
 .simply-countdown > .simply-section .simply-amount,
 .simply-countdown > .simply-section .simply-word {
   display: block;
@@ -983,11 +999,25 @@ form label {
   /* amounts */
 }
 
+@media screen and (max-width: 768px) {
+  .simply-countdown > .simply-section .simply-amount {
+    /* coutndown blocks */
+    font-size: 26px;
+  }
+}
+
 .simply-countdown > .simply-section .simply-word {
   color: rgba(255, 255, 255, 0.7);
   text-transform: uppercase;
   font-size: 12px;
   /* words */
+}
+
+@media screen and (max-width: 768px) {
+  .simply-countdown > .simply-section .simply-word {
+    /* coutndown blocks */
+    font-size: 10px;
+  }
 }
 
 #fh5co-testimonial,
@@ -1636,11 +1666,6 @@ form label {
   width: 44px;
   z-index: 2001;
   border-bottom: none !important;
-}
-@media screen and (max-width: 768px) {
-  .fh5co-nav-toggle {
-    display: block;
-  }
 }
 
 .btn {
